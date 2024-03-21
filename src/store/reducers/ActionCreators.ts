@@ -26,4 +26,3 @@ export const fetchUsers = createAsyncThunk(
     );
   }
 );
-//TODO закончил на 15:31
