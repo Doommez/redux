@@ -9,6 +9,8 @@ function App() {
 
   console.log("asdasdfasdf");
 
+  console.log("asdasdfasdf");
+
   useEffect(() => {
     dispatch(fetchUsers());
   }, []);
