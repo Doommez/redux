@@ -8,6 +8,7 @@ const rootReducer = combineReducers({
   user: userReducer,
   [postApi.reducerPath]: postApi.reducer,
 });
+console.log("asdf");
 
 export const setupStore = () => {
   return configureStore({
