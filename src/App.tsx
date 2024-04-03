@@ -8,6 +8,7 @@ function App() {
   const dispatch = useAppDispatch();
 
   console.log("2");
+  console.log("3");
 
   useEffect(() => {
     dispatch(fetchUsers());
