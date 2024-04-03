@@ -12,6 +12,9 @@ function App() {
   useEffect(() => {
     dispatch(fetchUsers());
   }, []);
+
+  console.log("main2");
+
   return (
     <>
       <div>
