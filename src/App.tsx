@@ -8,6 +8,8 @@ function App() {
   const dispatch = useAppDispatch();
   console.log(users);
 
+  console.log("asdasdfasdf");
+
   useEffect(() => {
     dispatch(fetchUsers());
   }, []);
