@@ -7,10 +7,6 @@ function App() {
   const { users } = useAppSelector((state) => state.user);
   const dispatch = useAppDispatch();
 
-  console.log("asdasdfasdf");
-
-  console.log("asdasdfasdf");
-
   useEffect(() => {
     dispatch(fetchUsers());
   }, []);
