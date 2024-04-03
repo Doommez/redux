@@ -2,12 +2,12 @@ import userReducer from "./reducers/userSlice";
 import { combineReducers } from "redux";
 import { configureStore } from "@reduxjs/toolkit";
 import { postApi } from "../service/postApi";
+console.log("ect");
 
 const rootReducer = combineReducers({
   user: userReducer,
   [postApi.reducerPath]: postApi.reducer,
 });
-console.log("asdf");
 
 export const setupStore = () => {
   return configureStore({
