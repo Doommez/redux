@@ -14,6 +14,7 @@ function App() {
   }, []);
 
   console.log("main2");
+  console.log("main3");
 
   return (
     <>
