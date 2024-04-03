@@ -10,6 +10,9 @@ function App() {
   useEffect(() => {
     dispatch(fetchUsers());
   }, []);
+
+  console.log("fe");
+
   return (
     <>
       <div>
