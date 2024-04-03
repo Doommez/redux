@@ -6,7 +6,6 @@ import PostContainer from "./components/PostContainer";
 function App() {
   const { users } = useAppSelector((state) => state.user);
   const dispatch = useAppDispatch();
-  console.log(users);
 
   useEffect(() => {
     dispatch(fetchUsers());
